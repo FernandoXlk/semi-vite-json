@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+        "name": "Perfume 01",
+        "desc": "Muito bom",
+        "value": 100.00,
+        "image": "public/p1.avif"
+    },
+
+    {
+        "id": 2,
+        "name": "Perfume 02",
+        "desc": "Muito cheiroso",
+        "value": 200.00,
+        "image": "public/p2.avif"
+    },
+
+    {
+        "id": 3,
+        "name": "Perfume 03",
+        "desc": "Muito caro",
+        "value": 300.00,
+        "image": "public/p3.webp"
+    }
+]
