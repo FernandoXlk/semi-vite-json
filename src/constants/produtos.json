@@ -1,24 +1,24 @@
 [
     {
       "id": 1,
-        "name": "Perfume 01",
-        "desc": "Muito bom",
+        "name": "Adidas",
+        "desc": "bonito",
         "value": 100.00,
         "image": "public/p1.avif"
     },
 
     {
         "id": 2,
-        "name": "Perfume 02",
-        "desc": "Muito cheiroso",
+        "name": "Nike",
+        "desc": "bonito",
         "value": 200.00,
         "image": "public/p2.avif"
     },
 
     {
         "id": 3,
-        "name": "Perfume 03",
-        "desc": "Muito caro",
+        "name": "Puma",
+        "desc": "bonito",
         "value": 300.00,
         "image": "public/p3.webp"
     }

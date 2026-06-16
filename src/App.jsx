@@ -1,27 +1,24 @@
-//imports do projeto
 import s from './App.module.css'
-import { Card } from './components/card'
 import produtos from "./constants/produtos.json"
-
+import { Card } from "./components/card"
 
 function App() {
-  //funcionalidades js
- 
+
   return(
-    <>
-      <h1 className={s.título}>Página de produtos</h1>
-      <main>
+      <>
+        <h1 className={s.titulo}>Página de produtos</h1>
 
-        {produtos.map((item) => {
-          return(
-            <div key={item.id} className={s.card}>
-              <Card imagem={item.image} nome={item.name} descrição={item.desc} valor={item.value}/>
-            </div>
-          )
-        })}
+        <main className={s.principal}>
 
-      </main>
-    </>
+          {produtos.map((item) => {
+            return(
+              <div key={item.id} className={s.card}>
+                <Card image={item.image} nome={item.name} desc={item.desc} value={item.value}></Card>
+              </div>
+            )
+          })}
+        </main>
+      </>
   )
 }
 
